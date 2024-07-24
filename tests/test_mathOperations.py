@@ -1,5 +1,5 @@
 import unittest
-from mathOperations import add, sub, mul, div
+from scripts.mathOperations import add, sub, mul, div
 
 class TestMathOperation(unittest.TestCase):
     def test_add(self):

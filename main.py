@@ -1,28 +1,6 @@
-from mathOperations import add, sub, mul, div
+from scripts.mathOperations import add, sub, mul, div
+from scripts.utils import is_int, try_get_float_value
 
-def is_int(value: str) -> bool:
-    try:
-        int(value)
-        return True
-    except ValueError:
-        return False
-    
-def is_float(value: str) -> bool:
-    try:
-        float(value)
-        return True
-    except ValueError:
-        return False
-
-def try_get_float_value() -> float:
-    value = input()
-    if is_float(value) is True:
-        value = float(value)
-        return value
-    else:
-        print("This is not float value, try again")
-        return None
-    
 def main():
 
     welcome_message = """Welcome in my calculator
