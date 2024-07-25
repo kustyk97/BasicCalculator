@@ -1,5 +1,5 @@
-from scripts.mathOperations import add, sub, mul, div
-from scripts.utils import is_int, try_get_float_value
+from BasicCalculator.mathOperations import add, sub, mul, div
+from BasicCalculator.utils import is_int, try_get_float_value
 
 
 def main():

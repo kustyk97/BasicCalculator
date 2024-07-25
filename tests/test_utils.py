@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch 
-from scripts.utils import is_float, is_int, try_get_float_value
+from BasicCalculator.utils import is_float, is_int, try_get_float_value
 
 
 class TestMainFunctions(unittest.TestCase):
