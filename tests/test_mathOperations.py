@@ -1,6 +1,7 @@
 import unittest
 from scripts.mathOperations import add, sub, mul, div
 
+
 class TestMathOperation(unittest.TestCase):
     def test_add(self):
         self.assertEqual(add(10, 5), 15)

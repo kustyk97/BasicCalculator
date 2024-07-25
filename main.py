@@ -1,6 +1,7 @@
 from scripts.mathOperations import add, sub, mul, div
 from scripts.utils import is_int, try_get_float_value
 
+
 def main():
 
     welcome_message = """Welcome in my calculator
@@ -18,7 +19,7 @@ You can make math operations like add, substract, multiplication and divide with
             print("unknow value")
             continue
         input_value = int(input_value)
-        if input_value not in [1,2,3,4,5]:
+        if input_value not in [1, 2, 3, 4, 5]:
             print("unknow value")
             continue
         if input_value == 5:
@@ -47,6 +48,7 @@ You can make math operations like add, substract, multiplication and divide with
                 print("Result: " + str(mul(first_value, second_value)))
             if input_value == 4:
                 print("Result: " + str(div(first_value, second_value)))
+
 
 if __name__ == "__main__":
     main()

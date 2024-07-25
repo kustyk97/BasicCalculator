@@ -1,2 +1,2 @@
 # PythonCalculator
-Simple console calculator written in Python
+Basic console calculator with unittests written in Python
